@@ -1,9 +1,8 @@
 # Kickstarter Analysis
 
-### Ptiya
-
+### Priya is amazing 
 --- 
 
-**Sean is awesom**
+**Priya is the best coder**
 
 ![Picture_1](Picture_1.png)
