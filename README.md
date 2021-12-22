@@ -1,8 +1,17 @@
-# Kickstarter Analysis
+# An Analysis of Kickstarter Campaigns
 
-### Priya is amazing 
+---
+
+### Description
+
+A brief analysis of Kickstarter Campaigns, focusing on theater campaigns in the UK and US market. 
+
 --- 
 
-**Priya is the best coder**
+### Successful Theatre Kickstarter Campaigns 
 
-![Picture_1](Picture_1.png)
+
+
+**Image 1**
+
+<img src="Picture_1.png" alt="drawing" style="width:600px;"/>
