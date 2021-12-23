@@ -13,8 +13,9 @@ A brief analysis of Kickstarter Campaigns, focusing on theater campaigns in the 
 Looking into all theatre kickstart campaigns, we can see from the image below that 60% of all kickstarter campagins in the theatre category were successful. 
   
 <p align="center">
-<img src="Picture_1.png" alt="drawing" style="width:500px;"/>
+<img src="Pictures/Picture_1.png" width="500">
 </p>
 
-<div align="right"> Image 1
+<div align="center"> Image 1
+ 
   
