@@ -16,22 +16,23 @@ The aim of this paper is to determine whether fundraising campaigns, in particul
 
 ## Analysis and Challenges 
 
-This part of the project provides a brief analysis of the fundraising campaign outcomes, as well as some challenges faced when reviewing the data.
+This part of the project provides a brief explantion of how and why the data was analysed, as well as some challenges faced when reviewing the data.
 
 ### Analysis of Outcomes Based on Launch Date
 
-The first way the outcomes can be looked at is by launch date. The data can be filtered to view how many campaigns were either success, failed, or were cancelled, by month. The graph below plots the outcomes of all the campaigns and another one for the campaigns in only the theatre industry.
+One way the outcomes can be looked at is by launch date. The data can be filtered to view how many campaigns were either success, failed, or were cancelled by month, to see if there’s a trend in fundraising outcomes over the course of a year.
 
-<p align="center">
-<img src="Pictures/Picture_1.png" width="500">
-</p>
+- **Adding Columns** 
 
-<div align="center"> Image 1
+A column, ‘Year’, is added, to extract the data needed to create a pivot table displaying the number of successful campaigns by month of launch date. 
 
-<p float="center">
-  <img src="Pictures/Picture_1.png" width="100" />
-  <img src="Pictures/Picture_1.png" width="100" /> 
-  </p>
+Extracting year from a date in excel:  
+
+          =year(cell reference)
+
+
+- **Creating Pivot Tables**
+
 
 ### Analysis of Outcomes Based on Goals
 
@@ -41,13 +42,23 @@ The first way the outcomes can be looked at is by launch date. The data can be f
 
 ## Results
 
-- #### Conclusions about the Outcomes based on Launch Date
+#### Conclusions about the Outcomes based on Launch Date
 
-- #### Conclusions about the Outcomes based on Goals
+The first way the outcomes can be looked at is by launch date. The data can be filtered to view how many campaigns were either success, failed, or were cancelled, by month. The graph below plots the outcomes of all the campaigns and another one for the campaigns in only the theatre industry.
 
-- #### Limitations of this dataset
 
-- #### Additional Info
+<p align="center">
+  <img src="Resources/Outcome_vs_Launch.png" width="450" />
+  <img src="Resources/Theater_Outcomes_vs_Launch.png" width="450" /> 
+</p>
+
+As you can see from the graphs above, 
+
+#### Conclusions about the Outcomes based on Goals
+
+#### Limitations of this dataset
+
+#### Additional Info
 
 
  
