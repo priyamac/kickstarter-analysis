@@ -22,16 +22,20 @@ This part of the project provides a brief explantion of how and why the data was
 
 One way the outcomes can be looked at is by launch date. The data can be filtered to view how many campaigns were either success, failed, or were cancelled by month, to see if there’s a trend in fundraising outcomes over the course of a year.
 
-- **Adding Columns** 
-
-A column, ‘Year’, is added, to extract the data needed to create a pivot table displaying the number of successful campaigns by month of launch date. 
-
-Extracting year from a date in excel:  
-
-          =year(cell reference)
-
-
 - **Creating Pivot Tables**
+
+A pivot table provides a helpful summary which is easy to analyse, that is proven useful for of a large amount of data. To look at outcomes based on launch dates;
+
+      - ‘Insert’
+      - ‘Pivot Table’
+      - Select dataset 
+      - Chose to place it in ‘New worksheet’
+
+To look at outcomes based on launch dates, the table needs to be filtered by outcomes and month, with outcomes being the value that’s being measured (see fields below).
+      
+<img src="Resources/Launch_Date_Pivot_Table_Fields.png" width="450" />
+
+<sup>*note that ‘Years’ and ‘Quarters’ need to be removed from ‘Rows’, to display by month.
 
 
 ### Analysis of Outcomes Based on Goals
