@@ -23,7 +23,9 @@ The first challenge to overcome was to sort the raw data. The best way to do thi
 
 Creating new columns, Date Created Conversion and Date Ended Conversion, using the Data formula changes the Unix timestamps into day-month-year format. This data will be useful in creating pivot tables to analyse campaigns based on dates. 
 
-Pic of new columns. 
+<p align="center">
+  <img src="Resources/Raw_Data.png" width="650" />
+</p>
 
 
 Additionally, `conditional formatting` can be applied to get a quick visual overview of the data. Applied to column ‘Outcomes’, different colours will indicate whether a campaign was successful, failed, cancelled, or is currently live. Applied to column ‘Percentage Funded’, using a colour scale, at a value of 0, the cell colour will be orange, and as the cells value increases, the colour will change to blue. 
@@ -36,7 +38,9 @@ One way the outcomes can be looked at is by launch date. The data can be filtere
 
 A pivot table provides a helpful summary which is easy to analyse, that is proven useful for of a large amount of data. 
 
-Pic of pivot 
+<p align="center">
+  <img src="Resources/Launch_Date_Pivot.png" width="650" />
+</p>
 
 This paper aims to analyse the theatre industry in particular, so using the Parent Category filter at the top of the pivot table, we’re able to select the ‘Theater’ Category. 
 
@@ -44,7 +48,9 @@ This pivot table shows May and June were the two months with the greatest number
 
 To display this visually, a line graph can be inserted using this data. 
 
-Pic of Line graph 
+<p align="center">
+  <img src="Resources/Theater_Outcomes_vs_Launch.png" width="650" />
+</p>
 
 ## Analysis of Outcomes Based on Goals
 
@@ -52,7 +58,9 @@ The other aim of this paper is to look into how successful campaigns were based 
 
 Using `CountIfs()` in Excel, a table can be created displaying the total number of successful, failed, and cancelled outcomes, for those campaigns in the ‘Plays’ category, for given ranges. 
 
-Pic of graph 
+<p align="center">
+  <img src="Resources/.png" width="650" />
+</p>
 
 This graphs states that almost 90% of the data collected were for campaigns with goals less than $10,000. Additionally, campaigns with a goal of less than $5000 are the most successful, and campaigns that are over $45,000 are the least successful. 
 
