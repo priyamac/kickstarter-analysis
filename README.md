@@ -119,5 +119,5 @@ Another challenge was not only creating pivot chart, but deciding which variable
 -	Using descriptive statistics, such as the table below, to find the means and standard deviations of goal amount vs pledged amount. 
 
   <p align="center">
-  <img src="Resources/Plays_Descriptive_Stats.png" width="650" />
+  <img src="Resources/Plays_Descriptive_Stats.png" width="550" />
 </p>
