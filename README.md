@@ -59,14 +59,16 @@ The other aim of this paper is to look into how successful campaigns were based 
 Using `CountIfs()` in Excel, a table can be created displaying the total number of successful, failed, and cancelled outcomes, for those campaigns in the ‘Plays’ category, for given ranges. 
 
 <p align="center">
-  <img src="Resources/.png" width="650" />
+  <img src="Resources/Outcomes_goals_table.png" width="650" />
 </p>
 
 This graphs states that almost 90% of the data collected were for campaigns with goals less than $10,000. Additionally, campaigns with a goal of less than $5000 are the most successful, and campaigns that are over $45,000 are the least successful. 
 
 As looking at outcomes based on launch dates, we can use a line graph to better visualise the data and extract information from it. 
 
-Pic of line graph. 
+<p align="center">
+  <img src="Resources/Outcomes_vs_Goals.png" width="650" />
+</p>
 
 The line graphs illustrates that goals less than $1000 were the most successful, with 76% success, and goals of $45,000 to $49,999 were the least successful, with 100% failure. 
 
@@ -116,4 +118,6 @@ Another challenge was not only creating pivot chart, but deciding which variable
 -	Use launch dates and end dates to find the duration of the campaign and plot a line graph to see if there’s a trench in outcomes vs duration of a campaign. 
 -	Using descriptive statistics, such as the table below, to find the means and standard deviations of goal amount vs pledged amount. 
 
-  
+  <p align="center">
+  <img src="Resources/Plays_Descriptive_Stats.png" width="650" />
+</p>
